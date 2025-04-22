@@ -15,23 +15,22 @@ Data Loading & Cleaning: Reads styles.csv, skips malformed rows, and ensures all
 
 .
 
-# Exploratory Data Analysis: Generates bar plots for each attribute (article type, base colour, season, gender) using Matplotlib 
-DataDrivenInvestor.
+Exploratory Data Analysis: Generates bar plots for each attribute (article type, base colour, season, gender) using Matplotlib 
 
-# Data Augmentation: Applies rescaling, horizontal flips, small rotations, and zooms via ImageDataGenerator with a 20% validation split 
-Python Tutorials – Real Python.
 
-# Transfer Learning: Freezes ResNet50 layers, adds global average pooling, dropout, and separate softmax heads for each target attribute 
-Python Tutorials – Real Python
+Data Augmentation: Applies rescaling, horizontal flips, small rotations, and zooms via ImageDataGenerator with a 20% validation split 
 
-.
 
-# Sparse‑Categorical Training: Encodes labels to integer codes, uses sparse_categorical_crossentropy, and saves a JSON mapping codes→labels for inference 
-
+Transfer Learning: Freezes ResNet50 layers, adds global average pooling, dropout, and separate softmax heads for each target attribute 
 
 .
 
-# Inference Utility: Provides predict_image() which reloads the model and class‑indices JSON to output human‑readable predictions for any input image 
+Sparse‑Categorical Training: Encodes labels to integer codes, uses sparse_categorical_crossentropy, and saves a JSON mapping codes→labels for inference 
+
+
+.
+
+ Inference Utility: Provides predict_image() which reloads the model and class‑indices JSON to output human‑readable predictions for any input image 
 
 
 # Directory Structure
