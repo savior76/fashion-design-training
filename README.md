@@ -1,7 +1,5 @@
 # fashion-design-training
-fashion design training was done on 1 epoch natively on rtx 3050 laptop via CUDNN, if increase the epochs the accuracy would be better
-
- Below is a suggested README.md—structured according to community best practices and focused on explaining how the code works (results are omitted). Citations follow each sentence.
+fashion design training was done on 1 epoch natively on rtx 3050 laptop via CUDNN, if increase the epochs the accuracy would be better.
 
  Summary: This repository provides an end‑to‑end Python pipeline for processing the Fashion Product Images Dataset, from data ingestion and EDA through transfer‑learning model training to final inference 
 
